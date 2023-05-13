@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    background-image: url(rk.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.container{
+    display:flex;
+    background-color: rgb(176, 115, 237);
+    border-radius: 10px;
+    height: 60vh;
+    width: 60vw;
+    position: relative;
+    margin: 15vh 20vw;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 128px;
+    height:100% ;
+    text-align: center;
+    border-radius: 10px;
+}
+input{
+    background-color:#eee;
+    border: none;
+    padding: 12px 15px ;
+    margin: 8px 0;
+    border-radius:6px;
+}
+a{
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+.sign-up-form{
+    background-color: rgb(253, 255, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px ;
+    
+}
+button{
+    
+    border-radius: 20px;
+    border:1px solid #ff4b2b;
+    background-color: #ff4b2b;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #444444;
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.mine{
+    border-radius: 20px;
+    border:1px solid #ff4b2b;
+    background-color: #ff4b2b;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    width: 80vw;
+    margin: 0 10vw;
+
+
+}
+footer {
+margin: 0;
+width: 100vw;
+color: #ffffff;
+}
+
+footer .footer-bottom {
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
